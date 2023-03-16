@@ -1,6 +1,7 @@
 @echo off
 if not exist "%TEMP%\_MENU---TEMP---FILES" mkdir "%TEMP%\_MENU---TEMP---FILES" && attrib +h "%TEMP%\_MENU---TEMP---FILES"
 if not exist "%TEMP%\_MENU---TEMP---FILES\Log" mkdir "%TEMP%\_MENU---TEMP---FILES\Log" && attrib +h "%TEMP%\_MENU---TEMP---FILES\Log"
+call :LoadVariables
 set "folder_started=%cd%"
 set "start_folder=%TEMP%"
 mode 120, 25
@@ -39,6 +40,12 @@ set Version_Check2=%Version_Check2:~0,6%
 if "%Version_Check2%" EQU "%Version_Check1%--" (set "version_=%Version_Check1%") else (set "version_=%Version_Check2%")
 if "v%Version_Menu%" EQU "%version_%" (goto Start) else (goto Update)
 exit 0
+
+:: \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+:LoadVariables
+set "URI1=https://github.com/OneDefauter/Menu_/releases/download/Req/FileDialog"
+goto:eof
 
 :: \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
