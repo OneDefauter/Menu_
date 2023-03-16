@@ -1,0 +1,15 @@
+Get the file type of the given handle.
+
+   GetFileType handle
+
+The result is reported via ERRORLEVEL this way:
+
+-2      No handle given or bad handle number.
+-1      The handle number is not connected to any file.
+ 0      The type of the specified file is unknown.
+ 1      The specified file is a disk file.
+ 2      The specified file is a character file, typically a device or console.
+ 3      The specified file is a socket, a named pipe, or an anonymous pipe.
+
+An example of this program is shown at:
+http://www.dostips.com/forum/viewtopic.php?f=3&t=2800&p=37884#p37884

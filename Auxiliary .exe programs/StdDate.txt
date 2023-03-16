@@ -1,0 +1,14 @@
+Get standard date fields and convert they to/from Julian Day Number.
+
+StdDate [date|jdn [/L]]
+
+Show the value of YYYY, MM and DD fields of the date given in locale format;
+if no parameter is given, current date is used.
+MM and DD fields shown will have a left zero if the value is less than 10.
+At end, return the equivalent Julian Day Number in ERRORLEVEL.
+If the given date is invalid, nothing is shown and return zero.
+
+If the parameter is a plain number with no date separators, a Julian Day Number
+is assumed; in this case, show the equivalent date in standard locale format
+(ie: MM/DD/YYYY) and return it as YYYYMMDD decimal value in ERRORLEVEL.
+If /L switch is also given, use long format to show the date.

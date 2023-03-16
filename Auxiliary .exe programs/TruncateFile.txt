@@ -1,0 +1,17 @@
+Truncate/augment the file of the given handle at the current file pointer position.
+
+   TruncateFile handle
+
+The result is reported via ERRORLEVEL this way:
+
+-2      No handle given or bad handle number.
+-1      The handle number is not connected to any file.
+ 0      File truncated/augmented correctly.
+ 1      Error while trying to truncate/augment the file.
+
+If the file pointer was moved beyond the end of file before this program,
+the file size is increased; the new file contents may be binary zeros or
+Ascii spaces depending on Windows version.
+
+An example of this program is shown at:
+http://www.dostips.com/forum/viewtopic.php?f=3&t=6035

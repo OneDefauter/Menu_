@@ -1,0 +1,14 @@
+Get standard time fields and convert they to/from number of milliseconds.
+
+StdTime [time|milliseconds [/L]]
+
+Show the value of Hour, Min, Sec and MSec fields of the time given in locale format;
+if no parameter is given, current time is used.
+All fields shown will have left zeros if needed to fill their widths.
+At end, return the equivalent number of milliseconds in ERRORLEVEL.
+If the given time is invalid, nothing is shown and return zero.
+
+If the parameter is a plain number with no time separators, a number of milliseconds
+is assumed; in this case, show the equivalent time in standard 24-hour format
+(ie: HH:MM:SS) and return it as HHMMSSmmm decimal value in ERRORLEVEL.
+If /L switch is also given, use 12-hour am/pm format to show the time.

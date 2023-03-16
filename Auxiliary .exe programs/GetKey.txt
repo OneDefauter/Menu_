@@ -1,0 +1,7 @@
+Get a key from keyboard and return its value in ERRORLEVEL.
+
+   GetKey [/N]
+
+Ascii characters are returned as positive values, extended keys as negative values.
+
+If /N switch is given, no wait for a key: immediately return zero if no key was pressed.

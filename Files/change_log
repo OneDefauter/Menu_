@@ -1,0 +1,144 @@
+Versão == 2.1
+	▪	Corrigido um erro no menu de opções.
+
+Versão == 2.0
+	▪	Pequenas mudanças.
+	▪	Novo comportamento nas pastas que são criadas quando usa o "Crop" ou o "Montage".
+	▪	Agora mostra a extensão de saída no menu do "Crop" e do "Montage".
+	▪	Foi adicionado um verificador de versão do ImageMagick.
+	▪	Atualização no ImageMagick.
+	▪	Foi adicionaod a opção 'Qualidade alta' para "Crop" e "Montage". (Desativado por padrão)
+	▪	Foi adicionado um menu de configuração do 'Qualidade alta'.
+	▪	Corrigido um erro em salvar.
+
+Versão == 1.9
+	Versão == 1.9.8
+	▪	Foi adicionado um aviso de nova versão caso tenha desativado a verificação de atualizações.
+	▪	Pequenas mudanças.
+
+	Versão == 1.9.7
+	▪	Agora você pode desativar a mensagem de erro e verificação de atualizações.
+	▪	Melhoria na velocidade de download no ImageMagick.
+	▪	Pequenas correções.
+
+	Versão == 1.9.6
+	▪	Corrigido um erro em que o 'Montage - Escolher' fechava o programa.
+	▪	Corrigido um erro na configurações do 'Montage'.
+	▪	Pequenas correções.
+
+	Versão == 1.9.5
+	▪	Pequenas correções.
+	▪	'Converter' foi reativado.
+
+	Versão == 1.9.4
+	▪	Pequenas correções.
+	▪	Foi adicionado o 'selecionar imagens' que você quer juntar no 'Montage'.
+
+	Versão == 1.9.3
+	▪	Correção no 'Rename'.
+	▪	Foi adicionado uma configuração de 'extensão de saída' para o 'Crop' e o 'Montage'.
+	▪	Foi adicionado um erro no 'Crop' e 'Montage' sobre a 'extensão de saída'.
+	▪	Pequenas mudanças no 'Crop' e 'Montage'.
+
+	Versão == 1.9.2
+	▪	O erro ao clicar no programa (script) com o mouse e ele fecha, foi corrigido parcialmente,
+	▪	Corrigido um erro que a tela muda o tamanho e as letras ao usar o 'Rename'.
+
+	Versão == 1.9.1
+	▪	O erro de path com caracteres 'Chinês' ou 'Japonês' foi corrigido.
+	▪	O botão 'ESC' foi adicionado em quase tudo para voltar na aba anterior.
+	▪	Corrigido um erro de PATH no 'Convert'.
+	▪	'Converter' e 'Fill' foram desativados por causa de um erro.
+	▪	Corrigido um erro na instalação automática do ImageMagick.
+
+Versão == 1.8
+	Versão == 1.8.3
+	▪	Corrigido um erro de loop no 'Verificador de programas'.
+	▪	Foi adicionado um comando (X) para apagar alguns arquivos do programa antes de iniciar o 
+		'Verificador de programas'.
+	▪	Limpeza e otimização no código.
+
+	Versão == 1.8.2
+	▪	O instalado do 'ImageMagick' é automático agora. (versão: 7.1.0-57-Q16-HDRI-x64)
+	▪	Organização no código.
+
+	Versão == 1.8.1
+	▪	'Fill' foi adicionado no 'Convert'.
+	▪	A opção de comando 'P' no 'Crop' e no 'Montage' agora é visível.
+	▪	Uma mudança no 'Rename' foi feita. Agora você tem que escolher as imagens para ser renomeado.
+	▪	Organização no código.
+
+Versão == 1.7
+	Versão == 1.7.6
+	▪	Correção no 'Converter' sobre os arquivos 'PSD' e variáveis.
+
+	Versão == 1.7.5
+	▪	Pequenas correções no 'Montage'.
+	▪	Corrigido um erro de criação de 'Backup' no 'Montage', 'Crop' e 'Converter'.
+	▪	Correção no painel de configuração do 'Converter'.
+	▪	Corrigido um erro na mensagem de erro do 'Converter'.
+
+	Versão == 1.7.4
+	▪	Adicionado pré-visualização nos respectivos menus.
+	▪	Organização no código.
+	▪	Melhoria na velocidade em mostrar as mensagens.
+	
+	Versão == 1.7.3
+	▪	Corrigido um erro no 'Backup'.
+	▪	Corrigido as variáveis do 'Crop'.
+	▪	Um novo método de escolher a pasta foi implementado.
+	▪	Organização no código.
+
+	Versão == 1.7.2
+	▪	Erros do 'Montage' foram corrigidos, onde se você não tivesse configurado antes 
+		ele te mandava para as configurações do 'Crop'.
+	▪	Corrigido um erro no 'DEFINIR O TAMANHO DO CORTE', 'DEFINIR A QUANTIDADE
+		DE JUNTAR' e 'DEFINIR O LIMITE', em que não salvava os valores.
+	▪	Corrigido um erro no 'Converter' onde o valor de (ENTRADA) era substituído
+		pelo valor de (SAÍDA) nas configurações.
+	▪	Organização no código.
+
+	Versão == 1.7.1
+	▪	'Convert' foi mudado para 'Crop'.
+	▪	'Converter' foi adicionado.
+	▪	Organização no código.
+
+Versão == 1.6
+▪	As strings (variáveis) dos diretórios são apagados agora.
+▪	Organização no código.
+▪	Algumas correções.
+▪	A mensagem de erro que não foi encontrado nada nas pastas (DIRETO) foi
+	adicionado para o 'Convert' e o 'Montage'.
+▪	Corrigido um erro no 'DEFINIR O TAMANHO DO CORTE', 'DEFINIR A QUANTIDADE
+	DE JUNTAR' e 'DEFINIR O LIMITE', em que se você deixa como 0, não
+	era substituído pelo número padrão.
+
+Versão == 1.5
+▪	Algumas correções.
+▪	Pequenas mudanças.
+▪	Verificação de um programa necessário está instalado foi adicionado.
+
+Versão == 1.4
+▪	Organização no código.
+▪	Opção 'Fechar' foi adicionado na aba Menu.
+▪	Variável da pasta de inicialização corrigida.
+▪	Corrigido a variável que mostra o número da versão.
+▪	Corrigido um erro no atualizador em que a variável da versão não era 
+	atualizada junto.
+
+Versão == 1.3
+▪	Uma nova forma de chamar o instalador do ImageMagick foi colocado.
+
+Versão == 1.2
+▪	Corrigido um erro de se conectar com outras partições.
+▪	Corrigido um erro onde o 'Montage' cortava na pasta customizada.
+
+Versão == 1.1
+▪	Foi adicionado o 'Montage' e Rename.
+▪	Foi adicionado um comando para o 'Convert' e o 'Montage' no seu 
+	respectivo menu a opção oculta 'P' para cortar ou juntar em 
+	uma pasta específica.
+▪	Correção de bugs.
+ 
+Versão == 1.0
+▪	Versão inicial criada para usar o 'Convert'.

@@ -1,0 +1,14 @@
+Show characters from Ascii codes, string literals and Batch variables.
+
+   Show { code[*times] | "literal" | variable[:[ñ]wide[:fill]] } ...
+
+<code>, <times>, <wide> and <fill> must be decimal numbers up to 255 each.
+
+<times> repeat the previous Ascii <code> character that number of times;
+a "X" letter may be used instead of the asterisk.
+
+<wide> define a field to show the variable value: justified at left by default,
+or justified at rigth if <wide> have minus sign, or centered if <wide> have
+plus sign; the field is filled with spaces, or with the <fill> code character.
+
+At end, the number of displayed characters is returned in ERRORLEVEL.

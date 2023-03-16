@@ -1,0 +1,26 @@
+Show a box in text mode using line-drawing characters.
+
+ColorBox [/BF] left top right bottom [/D] [ac1 ... ac8 [ac9]]
+
+   /BF       Color for the box.
+   l t r b   Coordinates of left,top and right,bottom box corners.
+   /D        Use double-lines in the frame.
+   ac1...    Use these Ascii codes in the frame.
+
+If just the box coordinates are given, a frame is shown with the same color
+of the initial position and single lines.
+
+If /BF switch is given, it specify the color for the frame; see: COLOR /?
+
+if /D switch is given, the frame is shown with double lines.
+
+Different characters for the box may be specified via AC1..AC9 Ascii codes:
+- AC1..AC8 codes are used to show the frame corners/sides in clockwise order.
+- If AC9 is given, the inside of the frame is filled with this character.
+- If just AC1..AC4 codes are given, they specify characters for frame corners;
+  for the sides, the standard single or double lines characters are used.
+
+Standard AC1..AC8 codes for single lines: 218 196 191 179 217 196 192 179
+Standard AC1..AC8 codes for double lines: 201 205 187 186 188 205 200 186
+
+After the box is shown, the cursor is returned to its original position.

@@ -1,0 +1,10 @@
+Show characters in color from Ascii codes and string literals.
+
+   ColorChar  /bf  { code[*times] | "literal" } ...
+
+<bf> specify a BackFore-ground color attribute (see COLOR /? for more info).
+
+<times> repeat the previous Ascii <code> character that number of times;
+a "X" letter may be used instead of the asterisk.
+
+This is a stripped down version of ColorShow.exe with no variable support.

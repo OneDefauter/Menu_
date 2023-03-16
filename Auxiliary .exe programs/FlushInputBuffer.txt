@@ -1,0 +1,3 @@
+Clear the input buffer of any previous keystroke.
+
+FlushInputBuffer
