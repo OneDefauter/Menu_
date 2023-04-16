@@ -1,5 +1,0 @@
-Show Ascii codes of string literals and Batch variables.
-
-Ascii "literal" | variable ...
-
-At end, the number of characters converted is returned in ERRORLEVEL.
