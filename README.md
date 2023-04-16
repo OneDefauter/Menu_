@@ -15,6 +15,8 @@
   
   MinGit
 
+  *Exceto o `Windows 10 (1809) x64` as outras opção são baixadas para você.*
+
 # Como usar
 ## Área inicial
   Menu principal
