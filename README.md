@@ -23,7 +23,7 @@
   
   2 - vai para o montage, onde junta as imagens.
   
-  3 - vai para o rename, onde renomea imagens começando do 01 (ás vezes ocorre erro).
+  3 - vai para o rename, onde renomea imagens começando do 01. (ás vezes ocorre erro)
   
   L - vai para o menu de logs de atualizações.
   
@@ -38,11 +38,11 @@
   
   E - um menu onde você pode mudar a extensão de saída entre `PNG` e `JPG`. 
   
-  M - mostra uma mensagem de erro grave (caso seja encontrado) no menu principal.
+  M - mostra uma mensagem de erro grave (caso seja informado) no menu principal.
   
-  Q - ativa e desativa melhorias de qualidade (depende do seu hardware) (caso deixe desativado o ImageMagick vai decidir uma configuração de qualidade para você)
+  Q - ativa e desativa melhorias de qualidade. (depende do seu hardware) (caso deixe desativado o ImageMagick vai decidir uma configuração de qualidade para você)
   
-  C - um menu onde você configura as melhorias de qualidade. (só aparece caso tenha `Imagem com uma qualidade melhor` ativado)
+  C - um menu onde você configurar as melhorias de qualidade. (só aparece caso tenha `Imagem com uma qualidade melhor` ativado)
   
   F - muda a forma em como você seleciona uma pasta.
   
@@ -59,7 +59,7 @@
 ## Convert
   1 - vai para o menu onde corta imagens.
   
-  2 - vaia para o menu onde converte a extensão das imagens.
+  2 - vai para o menu onde converte a extensão das imagens.
   
   3 - vai para o menu onde corta e junta as imagens de uma só vez.
   
@@ -72,11 +72,11 @@
 ## Crop
   1 - inicia o processo de cortar as imagens, o caminho da pasta tem que ser não direta. exemplo: `C:\Obras\Kamigami`
   
-  2 - a mesma opção que a anterior, só que essa opção você só coloca o caminho da pasta da obra. (exeplo: `C:\Obras\Kamigami\Capítulo 23`)
+  2 - a mesma opção que a anterior, só que essa opção você só coloca o caminho da pasta da obra. exeplo: `C:\Obras\Kamigami\Capítulo 23`
   
   T - o mesmo que a primeira opção, só que mais eficiente.
   
-  3 - vaia para o menu configuração do crop.
+  3 - vai para o menu configuração do crop.
   
   4 - volta para o menu anterior.
   
