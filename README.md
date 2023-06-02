@@ -16,3 +16,6 @@ Um código feito para usar o [ImageMagick](https://imagemagick.org/) para cortar
 
 # Baixar
 [Clique aqui](https://github.com/OneDefauter/Menu_/releases/download/Iniciar/Menu.msi) para baixar.
+
+# Wiki
+[Clique aqui.](https://github.com/OneDefauter/Menu_/wiki)
